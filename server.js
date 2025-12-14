@@ -33,13 +33,7 @@ app.post("/chat", async (req, res) => {
 });
 
 // ======= INICIAR SERVIDOR =======
-<<<<<<< HEAD
-app.listen(3001, () => {
-  console.log("Servidor rodando na porta 3001");
-=======
 const PORT = process.env.PORT || 3001;
-
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
->>>>>>> d8b535f (primeiro deploy backend chatbot)
 });
